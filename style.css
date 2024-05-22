@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    color: #5a5656ef;
+}
+.container h2{
+    font-size: 35px;
+}
+.container ul{
+    position: relative;
+    left: 30px;
+    font-size: 20px;
+}
+.container button{
+    color: white;
+    background-color:#5a5656ef ;
+    border-radius: 20px;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+
+}
+.hidden{
+    display: none;
+}
